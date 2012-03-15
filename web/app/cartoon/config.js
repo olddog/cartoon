@@ -129,7 +129,9 @@ module.exports = {
   /* 全局变量配置 */
   'global': {
     'models': require('./models'),
-    '_': require('underscore')._
+    '_': require('underscore')._,
+    'error': require('./gl').Error['zh_CN']，
+    'sec_key': '狗狗吃饭饭不吃葡萄皮也绝对不会到吐葡萄皮的'
     /*
     // global所定义的所有成员均可在code目录里面的路由处理程序里面直接引用
     // 例：在code目录里面的路由处理程序均可直接使用TestLog()

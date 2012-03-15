@@ -10,7 +10,7 @@ exports.get = function(req, res) {
       if (!!error) {
         console.log(error);
       } else {
-        res.send(docs[0]);
+        res.send(JSON.stringify(docs[0]));
       }
     });
   }

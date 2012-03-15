@@ -7,6 +7,6 @@ var User = new Schema({
   salt :    {type:String},
   desc:     {type:String},
   avatar:   {type:String},
-  regDate:  {type:String}
+  reg_date:  {type:String}
 });
 mongoose.model('User', User);
